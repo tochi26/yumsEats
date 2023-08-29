@@ -6,6 +6,7 @@ import Meal from './components/Meal';
 import { mealData } from './data/data';
 import Categories from "./components/Categories";
 import { NewsLetter } from "./components/NewsLetter";
+import { Footer } from "./components/Footer";
 
 
 
@@ -21,6 +22,7 @@ function App() {
       <Meal mealData={mealData} />
       <Categories />
       <NewsLetter />
+      <Footer />
     </div>
   );
 }
