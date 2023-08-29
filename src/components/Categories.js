@@ -9,7 +9,9 @@ const Categories = () => {
                 Trending Categories</h1>
             <div className='grid grid-cols-2 md:grid-cols-6 gap-5 py-5 px-2 '>
                 {categories.map((item) =>
-                    <div className='p-4 flex justify-center items-center hover:scale-105 duration-300'>
+                    <div
+                        key={item.id}
+                        className='p-4 flex justify-center items-center hover:scale-105 duration-300'>
                         <img
                             className='object-cover rounded-xl w-40 h-10 cursor-pointer shadow-xl'
                             src={item.image}
