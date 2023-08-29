@@ -4,6 +4,7 @@ import { Delivery } from "./components/Delivery";
 import { TopPicks } from "./components/TopPicks";
 import Meal from './components/Meal';
 import { mealData } from './data/data';
+import Categories from "./components/Categories";
 
 
 
@@ -17,6 +18,7 @@ function App() {
       <Delivery />
       <TopPicks />
       <Meal mealData={mealData} />
+      <Categories />
     </div>
   );
 }
